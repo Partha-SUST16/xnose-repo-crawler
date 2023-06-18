@@ -7,7 +7,8 @@ import (
 )
 
 type Settings struct {
-	StoragePath string `mapstructure:"STORGAE_PATH"`
+	StoragePath  string `mapstructure:"STORGAE_PATH"`
+	ResponsePath string `mapstructure:"RESPONSE_PATH"`
 }
 
 func NewSettings() *Settings {

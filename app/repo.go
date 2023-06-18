@@ -3,8 +3,8 @@ package app
 import (
 	"context"
 	"fmt"
+	"log"
 	"os"
-	"strings"
 	"xnose/pkg/settings"
 
 	"github.com/go-git/go-git/v5"
@@ -25,16 +25,12 @@ func NewRepoService(settings *settings.Settings) *Repo {
 	}
 }
 
-func (r *Repo) CloneRepo(ctx context.Context, url string) {
-	splitedUrl := strings.Split(url, "/")
-	name := splitedUrl[len(splitedUrl)-1]
-
+func (r *Repo) CloneRepo(ctx context.Context, name, url string) {
 	path := fmt.Sprintf("%s%s", r.Settings.StoragePath, name)
-
 	_, err := git.PlainClone(path, false, &git.CloneOptions{
 		URL:      url,
 		Progress: os.Stdout,
 	})
 
-	fmt.Println(err)
+	log.Println(err)
 }
