@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"context"
+	"xnose/app"
+	"xnose/pkg/settings"
+)
 
 func main() {
-	fmt.Println("Hello world!")
+	settings := settings.NewSettings()
+	repo := app.NewRepoService(settings)
+	repo.CloneRepo(context.TODO(), "https://github.com/go-git/go-git")
 }
