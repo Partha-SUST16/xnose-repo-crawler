@@ -14,7 +14,17 @@ func main() {
 	responses := response.ReadResponse(settings)
 	repo := app.NewRepoService(settings)
 	for _, item := range responses.Items {
-		log.Println(item.CloneURL)
-		repo.CloneRepo(context.Background(), item.Name, item.CloneURL)
+		err := repo.CloneRepo(context.TODO(), item.Name, item.CloneURL)
+		if err != nil {
+			log.Println(err.Error())
+		}
+	}
+	results, err := repo.FindFilesByExtension(context.TODO())
+	if err != nil {
+		log.Println(err.Error())
+	}
+	err = repo.WriteResponseToFile(context.TODO(), results)
+	if err != nil {
+		log.Println(err.Error())
 	}
 }

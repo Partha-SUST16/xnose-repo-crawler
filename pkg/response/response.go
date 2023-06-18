@@ -2,7 +2,7 @@ package response
 
 import (
 	"encoding/json"
-	"io/ioutil"
+	"io"
 	"log"
 	"os"
 	"xnose/pkg/settings"
@@ -133,11 +133,10 @@ func ReadResponse(settings *settings.Settings) *Response {
 	if err != nil {
 		log.Println(err)
 	}
-	log.Println("Successfully Opened Response File")
 
 	defer jsonFile.Close()
 
-	byteValue, _ := ioutil.ReadAll(jsonFile)
+	byteValue, _ := io.ReadAll(jsonFile)
 	json.Unmarshal(byteValue, &response)
 	return &response
 }

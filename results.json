@@ -1,0 +1,170 @@
+[
+    {
+        "name": "DDD",
+        "path": "/workspaces/xnose-repo-crawler/repos/AspNetCore-DDD/DDD.sln"
+    },
+    {
+        "name": "AspNetCoreTests",
+        "path": "/workspaces/xnose-repo-crawler/repos/AspNetCoreTests/AspNetCoreTests/AspNetCoreTests.sln"
+    },
+    {
+        "name": "Camelotia.Avalonia",
+        "path": "/workspaces/xnose-repo-crawler/repos/Camelotia/src/Camelotia.Avalonia.sln"
+    },
+    {
+        "name": "Camelotia.Uwp",
+        "path": "/workspaces/xnose-repo-crawler/repos/Camelotia/src/Camelotia.Uwp.sln"
+    },
+    {
+        "name": "Camelotia.Wpf",
+        "path": "/workspaces/xnose-repo-crawler/repos/Camelotia/src/Camelotia.Wpf.sln"
+    },
+    {
+        "name": "Camelotia.Xamarin",
+        "path": "/workspaces/xnose-repo-crawler/repos/Camelotia/src/Camelotia.Xamarin.sln"
+    },
+    {
+        "name": "Camelotia",
+        "path": "/workspaces/xnose-repo-crawler/repos/Camelotia/src/Camelotia.sln"
+    },
+    {
+        "name": "ChainingAssertion",
+        "path": "/workspaces/xnose-repo-crawler/repos/ChainingAssertion/ChainingAssertion.sln"
+    },
+    {
+        "name": "DesignPatterns",
+        "path": "/workspaces/xnose-repo-crawler/repos/DesignPatterns/DesignPatterns.sln"
+    },
+    {
+        "name": "SampleLibrary",
+        "path": "/workspaces/xnose-repo-crawler/repos/Domain-Driven-Design-Sample/SampleLibrary.sln"
+    },
+    {
+        "name": "LightBDD",
+        "path": "/workspaces/xnose-repo-crawler/repos/LightBDD/LightBDD.sln"
+    },
+    {
+        "name": "LightBDD.Examples",
+        "path": "/workspaces/xnose-repo-crawler/repos/LightBDD/examples/LightBDD.Examples.sln"
+    },
+    {
+        "name": "LightBDD.VSIXTemplates",
+        "path": "/workspaces/xnose-repo-crawler/repos/LightBDD/templates/LightBDD.VSIXTemplates.sln"
+    },
+    {
+        "name": "MinimalApi",
+        "path": "/workspaces/xnose-repo-crawler/repos/MinimalApi/MinimalApi.sln"
+    },
+    {
+        "name": "MsCoreOne",
+        "path": "/workspaces/xnose-repo-crawler/repos/MsCoreOne/MsCoreOne.sln"
+    },
+    {
+        "name": "Ocaramba",
+        "path": "/workspaces/xnose-repo-crawler/repos/Ocaramba/Ocaramba.sln"
+    },
+    {
+        "name": "SpecFlow.ExternalData.SpecFlowPlugin",
+        "path": "/workspaces/xnose-repo-crawler/repos/SpecFlow/Plugins/SpecFlow.ExternalData/SpecFlow.ExternalData.SpecFlowPlugin.sln"
+    },
+    {
+        "name": "Specs",
+        "path": "/workspaces/xnose-repo-crawler/repos/SpecFlow/Plugins/SpecFlow.ExternalData/sample/ExternalDataSample/Specs.sln"
+    },
+    {
+        "name": "TechTalk.SpecFlow",
+        "path": "/workspaces/xnose-repo-crawler/repos/SpecFlow/TechTalk.SpecFlow.sln"
+    },
+    {
+        "name": "Sukt.Admin",
+        "path": "/workspaces/xnose-repo-crawler/repos/Sukt.Admin/Sukt.Admin.sln"
+    },
+    {
+        "name": "Xunit.Categories",
+        "path": "/workspaces/xnose-repo-crawler/repos/Xunit.Categories/Xunit.Categories.sln"
+    },
+    {
+        "name": "Xunit.DependencyInjection",
+        "path": "/workspaces/xnose-repo-crawler/repos/Xunit.DependencyInjection/Xunit.DependencyInjection.sln"
+    },
+    {
+        "name": "Xunit.Gherkin.Quick",
+        "path": "/workspaces/xnose-repo-crawler/repos/Xunit.Gherkin.Quick/source/Xunit.Gherkin.Quick.sln"
+    },
+    {
+        "name": "XunitContext",
+        "path": "/workspaces/xnose-repo-crawler/repos/XunitContext/src/XunitContext.sln"
+    },
+    {
+        "name": "bunit",
+        "path": "/workspaces/xnose-repo-crawler/repos/bUnit/bunit.sln"
+    },
+    {
+        "name": "samples",
+        "path": "/workspaces/xnose-repo-crawler/repos/bUnit/docs/samples/samples.sln"
+    },
+    {
+        "name": "Cake",
+        "path": "/workspaces/xnose-repo-crawler/repos/cake/src/Cake.sln"
+    },
+    {
+        "name": "Solution",
+        "path": "/workspaces/xnose-repo-crawler/repos/cake/tests/integration/resources/Cake.Common/Solution/Solution.sln"
+    },
+    {
+        "name": "hwapp",
+        "path": "/workspaces/xnose-repo-crawler/repos/cake/tests/integration/resources/Cake.Common/Tools/DotNet/hwapp.sln"
+    },
+    {
+        "name": "Clean-Architecture-Manga",
+        "path": "/workspaces/xnose-repo-crawler/repos/ddd-tdd-rich-domain-model-dojo-kata/Clean-Architecture-Manga.sln"
+    },
+    {
+        "name": "xUnit.Devices",
+        "path": "/workspaces/xnose-repo-crawler/repos/devices.xunit/xUnit.Devices.sln"
+    },
+    {
+        "name": "FluentAssertions",
+        "path": "/workspaces/xnose-repo-crawler/repos/fluentassertions/FluentAssertions.sln"
+    },
+    {
+        "name": "FluentAssertions.Analyzers",
+        "path": "/workspaces/xnose-repo-crawler/repos/fluentassertions.analyzers/FluentAssertions.Analyzers.sln"
+    },
+    {
+        "name": "Snapshooter.Examples",
+        "path": "/workspaces/xnose-repo-crawler/repos/snapshooter/samples/Snapshooter.Examples.sln"
+    },
+    {
+        "name": "Snapshooter",
+        "path": "/workspaces/xnose-repo-crawler/repos/snapshooter/src/Snapshooter.sln"
+    },
+    {
+        "name": "xUnitRevit",
+        "path": "/workspaces/xnose-repo-crawler/repos/xUnitRevit/xUnitRevit.sln"
+    },
+    {
+        "name": "xUnitRevitUtils",
+        "path": "/workspaces/xnose-repo-crawler/repos/xUnitRevit/xUnitRevitUtils.sln"
+    },
+    {
+        "name": "XHarness",
+        "path": "/workspaces/xnose-repo-crawler/repos/xharness/XHarness.sln"
+    },
+    {
+        "name": "xunit",
+        "path": "/workspaces/xnose-repo-crawler/repos/xunit/xunit.sln"
+    },
+    {
+        "name": "Logging.XUnit",
+        "path": "/workspaces/xnose-repo-crawler/repos/xunit-logging/Logging.XUnit.sln"
+    },
+    {
+        "name": "xunit.analyzers",
+        "path": "/workspaces/xnose-repo-crawler/repos/xunit.analyzers/xunit.analyzers.sln"
+    },
+    {
+        "name": "xunit.testlogger",
+        "path": "/workspaces/xnose-repo-crawler/repos/xunit.testlogger/xunit.testlogger.sln"
+    }
+]

@@ -7,8 +7,10 @@ import (
 )
 
 type Settings struct {
-	StoragePath  string `mapstructure:"STORGAE_PATH"`
-	ResponsePath string `mapstructure:"RESPONSE_PATH"`
+	StoragePath     string `mapstructure:"STORGAE_PATH"`
+	ResponsePath    string `mapstructure:"RESPONSE_PATH"`
+	OutputPath      string `mapstructure:"OUTPUT_PATH"`
+	LookUpExtension string `mapstructure:"LOOKUP_EXT"`
 }
 
 func NewSettings() *Settings {
