@@ -12,6 +12,7 @@ func main() {
 	log.SetFlags(log.Ltime)
 	settings := settings.NewSettings()
 	responses := response.ReadResponse(settings)
+	log.Println("Total Repo Count", len(responses.Items))
 	repo := app.NewRepoService(settings)
 	for _, item := range responses.Items {
 		err := repo.CloneRepo(context.TODO(), item.Name, item.CloneURL)
